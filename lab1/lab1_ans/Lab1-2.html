@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        form {
+            width: 300px;
+            padding: 50px;
+            border: 1px solid #ccc;
+            border-radius: 30px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        label, input {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="day"] {
+            display: inline-flex;
+            width: 90px;
+            height: 35px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            
+
+        }
+        input[type="year"] {
+            display: inline-flex;
+            width: 70px;
+            height: 35px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            
+
+        }
+        input[type="submit"] {
+            display: block;
+            margin: 0 auto;
+            border-radius: 80px;
+            background-color: #05941a;
+            color: #fff;
+            border: 1px solid #ccc;
+            padding: 10px 100px;
+            cursor: pointer;
+        }
+        .permision{
+            display: inline-flex;
+            color:#747474;
+            font-size:70%;
+            padding-top: 30px;
+
+        }
+        .container {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 20px;
+            margin-top:20px;
+        }
+        .month_size{
+            width: 120px;
+            height: 40px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <p> Sign up with your email address</p>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+        <input type="email" id="confirmEmail" name="confirmEmail" placeholder="Confirm your email" required>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <input type="text" id="username" name="username" placeholder="What should we call you?" required>
+        <label for="dob" style="color:#747474;"> Date of birth: </label>
+        <div class="custom-select" >
+        <select class="month_size" style="color:#747474;">
+            <option value="0" > Month </option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+        </select>
+        <input type="day" id="day" name="day" placeholder="Day" required>
+        <input type="year" id="year" name="year" placeholder="Year" required>
+        </div>
+        
+        <div class="container">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male" style="color:#747474;">Male</label>
+        </div>
+        <div class="container">
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female" style="color:#747474;">Female</label>
+        </div>
+        <div class="container">
+            <input type="radio" id="nonBinary" name="gender" value="non-binary">
+            <label for="nonBinary" style="color:#747474;">Non-binary</label>
+        </div>
+        <div class="permision">
+            <input type="checkbox" id="shareData" name="shareData" value="shareData">
+            <label for="shareData" >Share my registration data with Spotify's content providers for marketing purposes.</label>
+        </div>
+
+        <input type="submit" value="SIGN UP">
+    </form>
+</body>
+</html>
