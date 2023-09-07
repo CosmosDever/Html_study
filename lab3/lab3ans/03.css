@@ -11,6 +11,8 @@ body {
   border-radius: .5em;
   width: 400px;
   height: 300px;
+  display: grid;
+  place-items: center;
 }
 
 .child {
@@ -18,4 +20,6 @@ body {
   color: #fff;
   padding: .5em;
   width: 150px;
+  display: grid;
+
 }
