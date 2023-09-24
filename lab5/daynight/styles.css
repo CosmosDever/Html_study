@@ -1,0 +1,22 @@
+
+
+body {
+    background-color: #fff; 
+    color: #000; 
+}
+
+
+
+.highlight-word {
+    color: red; 
+}
+
+.night-mode {
+    background-color: #000; 
+    color: #fff; 
+}
+
+.night-mode .highlight-word {
+    color: blue; 
+}
+

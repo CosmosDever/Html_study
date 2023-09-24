@@ -1,0 +1,31 @@
+.container {
+    margin-left: 33.5%;
+}
+.box {
+    width: 500px;
+    height: 500px;
+    background: #212121;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.inbox {
+    width: 480px;
+    height: 480px;
+    background: #e8e8e8;
+    display: flex;
+    align-content: center;
+}
+.inboxblack {
+    width: 232.5px;
+    height: 232.5px;
+    background: #212121;
+    margin: 5px;
+}
+.inboxblack2 {
+    width: 232.5px;
+    height: 232.5px;
+    background: #212121;
+    margin: 5px;
+    margin-top: 242.5px;
+
+}
