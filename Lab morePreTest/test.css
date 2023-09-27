@@ -149,16 +149,19 @@ p{
         opacity: 1;
     }
 }
-@media (max-width:900px) {
+@media (max-width:800px) {
     body {
+        width: auto;
         background-size: cover;
     }
     .firstbox {
+        width: auto;
         display: flex;
         flex-direction: column;
-        gap: 0;
+        margin-bottom: 1000px;
     }
     .topicbar{
+        width: auto;
         display: flex;
         flex-direction: column;
     }
