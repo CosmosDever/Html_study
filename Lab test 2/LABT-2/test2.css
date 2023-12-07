@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+.Chevy-Bolt{
+    margin: auto;
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    border-style: solid;
+    text-align: center;
+}
+.Nissan{
+    margin: auto;
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    border-style: solid;
+    text-align: center;
+}
+.Tesla{
+    margin: auto;
+    width: 300px;
+    height:auto;
+    border-radius: 5%;
+    border-style: solid;
+    text-align: center;
+}
+.Fiat{
+    margin: auto;
+    width: 300px;
+    height: auto;
+    border-radius: 5%;
+    border-style: solid;
+    text-align: center;
+}
+.Chevy-Spark{
+    margin: auto;
+    height: auto;
+    border-radius: 5%;
+    border-style: solid;
+    text-align: center;
+}
+img{
+    width: auto;
+    height: 120px;
+}

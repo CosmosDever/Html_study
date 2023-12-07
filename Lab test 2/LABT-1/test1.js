@@ -34,10 +34,9 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('check').addEventListener('click', function (event) {
         event.stopPropagation();
     });
-
+    
     // Event listeners for circles
     document.querySelector('.circleInner').addEventListener('click', changeColor1);
     document.querySelector('.circleMiddle').addEventListener('click', changeColor2);
     document.querySelector('.circleOuter').addEventListener('click', changeColor3);
 });
-
