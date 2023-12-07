@@ -1,0 +1,43 @@
+
+.resetbttn{
+    float: right;
+}
+h1 {
+    text-align: center;
+}
+.circlebox{
+    display: flex;
+    justify-content: center;
+}
+.circleOuter{
+    position: relative;
+    width: 700px; 
+    height: 700px; 
+    border-radius: 50%;
+    border-style: solid;
+    text-align: center;
+    justify-content: center;
+}
+.circleMiddle{
+    width: 600px; 
+    height: 600px; 
+    border-radius: 50%;
+    border-style: solid;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+
+}
+.circleInner{
+    width: 500px; 
+    height: 500px; 
+    border-radius: 50%;
+    border-style: solid;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+}

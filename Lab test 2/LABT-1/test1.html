@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="test1.js"></script>
+    <link rel="stylesheet" href="test1.css">
+    <title>Test-1</title>
+</head>
+<body>
+    <div>
+        <div>
+            <input type="checkbox" id="check"onclick="stopPropagation(event)>
+            <label for="check" ">Use stopPropagation</label><br>
+            <div class="resetbttn">
+                <button onclick="resetPage()">Reset page</button>
+            </div>
+        </div>
+        <div>
+            <h1>
+                Check for observe pro propagation
+            </h1>
+        </div>
+        <div class="circlebox"onclick="changeColor3(event)">
+            <div class="circleOuter">
+                <div>
+                    Outer
+                </div>
+                <div class="circleMiddle"onclick="changeColor2(event)" >
+                    <div>
+                        Middle
+                    </div>
+                    <div class="circleInner "onclick="changeColor1(event)">
+                        <div>
+                            Inner
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
